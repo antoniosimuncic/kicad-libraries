@@ -1,0 +1,125 @@
+(footprint "mouse-bite-2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0.5mm holes and 3mm wide tab")
+	(tags "OSHPark recommended panel tab")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "98bf0ed2-1652-47c8-94db-5072c27be81c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "mouse-bite-2mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "acc5989f-4710-4b37-8cfd-d1fc32d6b0db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "mouse-bite-2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "618a8a58-493e-4818-94c5-5fa168f8c2b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d55c944-d8d3-4f52-a5cf-4d1fec10f130")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "823fc52c-0b7e-4d0a-81d2-472f8a8ab008")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_arc
+		(start -2.25 -1)
+		(mid -1.25 0)
+		(end -2.25 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4bf13f8b-70fd-4402-818e-d88f597daaf0")
+	)
+	(fp_arc
+		(start 2.25 1)
+		(mid 1.25 0)
+		(end 2.25 -1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3b238f54-224d-4fcd-a481-2e47dcdfcb7a")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.25 0 180)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu")
+		(uuid "fa260af3-476b-479e-8898-82698fdca13a")
+	)
+	(pad "" np_thru_hole circle
+		(at -1 -0.9)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu")
+		(uuid "c5a9c829-2924-435c-8199-f210f025a158")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.9)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu")
+		(uuid "5ac6f6ef-01b5-45db-a6ac-3f514122b9ee")
+	)
+	(pad "" np_thru_hole circle
+		(at 1 -0.9)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu")
+		(uuid "63ee5613-f713-464e-b60b-c9a9d4295695")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.25 0)
+		(size 2 2)
+		(drill 2)
+		(layers "F&B.Cu")
+		(uuid "33e377fc-ac30-4bd3-a20a-e8090d97d65a")
+	)
+)
